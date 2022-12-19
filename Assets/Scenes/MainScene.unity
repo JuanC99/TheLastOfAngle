@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 160596, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -420,7 +424,7 @@ MonoBehaviour:
   pointer: {fileID: 0}
   addRigidBody: 0
   reference: {fileID: 0}
---- !u!114 &49340228
+--- !u!114 &49340229
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2893,27 +2897,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a232ff43de2973f4dbd40d67f258061c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 16.63154
+      value: 62.790714
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a232ff43de2973f4dbd40d67f258061c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 16.63154
+      value: 62.790714
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a232ff43de2973f4dbd40d67f258061c, type: 3}
       propertyPath: m_LocalScale.z
-      value: 23.438402
+      value: 88.48934
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a232ff43de2973f4dbd40d67f258061c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.0000026468
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a232ff43de2973f4dbd40d67f258061c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.83457
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a232ff43de2973f4dbd40d67f258061c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.22994
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a232ff43de2973f4dbd40d67f258061c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3057,6 +3061,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1521968883 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 144230, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+  m_PrefabInstance: {fileID: 17171042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1521968888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521968883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4eb712eb27f155429f6ef6434dbd13e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activaSonar:
+    actionPath: /actions/default/in/botonMandoSonar
+    needsReinit: 0
 --- !u!1 &1574250371
 GameObject:
   m_ObjectHideFlags: 0
