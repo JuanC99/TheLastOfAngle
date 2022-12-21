@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - pala
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - objetoMinimapa
   - Water
   - UI
   - 
