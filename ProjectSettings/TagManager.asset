@@ -6,6 +6,9 @@ TagManager:
   tags:
   - pala
   - FxTemporaire
+  - projectile
+  - Ground
+  - BulletWorm
   layers:
   - Default
   - TransparentFX
