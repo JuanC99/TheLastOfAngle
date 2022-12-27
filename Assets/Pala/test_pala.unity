@@ -920,6 +920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objetoExcavacion: {fileID: 1718790034}
   objetoDesaparecido: {fileID: 677858046}
+  particulas: {fileID: 0}
 --- !u!65 &1647303335
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1383,6 +1384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objetoExcavacion: {fileID: 282383833715109181}
   objetoDesaparecido: {fileID: 746404111}
+  particulas: {fileID: 0}
 --- !u!1 &282383833779376138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,6 +1433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objetoExcavacion: {fileID: 1088813038932623077}
   objetoDesaparecido: {fileID: 1402598247}
+  particulas: {fileID: 0}
 --- !u!1 &1088813038862664658
 GameObject:
   m_ObjectHideFlags: 0
