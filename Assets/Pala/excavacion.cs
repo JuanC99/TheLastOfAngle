@@ -21,7 +21,7 @@ public class excavacion : MonoBehaviour
     {
         if (other.tag == "pala")
         {
-            //Debug.Log("pala");
+            Debug.Log("pala");
             objetoExcavacion.SetActive(true);
             animator.Play("objeto_saliendo");
             particulas.SetActive(false);
@@ -32,7 +32,7 @@ public class excavacion : MonoBehaviour
     private void Update()
     {
         
-        if (cogeObjeto[this.GetComponent<Hand>().handType].stateDown)
+       /* if (cogeObjeto[this.GetComponent<Hand>().handType].stateDown)
         {
            
             if (objetoExcavacion.activeSelf)
@@ -43,6 +43,6 @@ public class excavacion : MonoBehaviour
             }
 
             //Debug.Log("Apretado");
-        }
+        }*/
     }
 }

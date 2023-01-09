@@ -18,7 +18,7 @@ public class TextControler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //LeerTexto(listaIntroduccion);
+        LeerTexto(listaIntroduccion);
     }
 
     void Update()
