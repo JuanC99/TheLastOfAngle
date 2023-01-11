@@ -58,6 +58,14 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/default/in/SiguienteTexto",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/VolverMenu",
+      "type": "boolean"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },

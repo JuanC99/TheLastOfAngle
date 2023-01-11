@@ -5009,8 +5009,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 2.7025795, y: 1, z: 3.411343}
+  m_Center: {x: -0.07521746, y: 0, z: 0.032365985}
 --- !u!114 &6253064515036288431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5025,6 +5025,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objetoExcavacion: {fileID: 6253064515098503323}
   objetoDesaparecido: {fileID: 0}
+  particulas: {fileID: 0}
+  cogeObjeto:
+    actionPath: 
+    needsReinit: 0
 --- !u!95 &6253064515036288418
 Animator:
   serializedVersion: 4
@@ -5156,8 +5160,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7441267081187037997}
   m_LocalRotation: {x: 0, y: -0.38268343, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 6.3000007, z: 0}
-  m_LocalScale: {x: 0.098439, y: 1.4462498, z: 0.098439}
+  m_LocalPosition: {x: 0, y: 77.5, z: 0}
+  m_LocalScale: {x: 0.72142005, y: 10.598987, z: 0.72142005}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6253064515036288419}

@@ -13,6 +13,7 @@ public class excavacion : MonoBehaviour
     public GameObject objetoDesaparecido;
     public GameObject particulas;
     public SteamVR_Action_Boolean cogeObjeto;
+    
     private void Start()
     {
         animator = gameObject.GetComponent<Animator>();
@@ -29,20 +30,11 @@ public class excavacion : MonoBehaviour
         
     }
 
-    private void Update()
+    public void cogerObjeto()
     {
-        
-       /* if (cogeObjeto[this.GetComponent<Hand>().handType].stateDown)
-        {
-           
-            if (objetoExcavacion.activeSelf)
-            {
-                objetoExcavacion.SetActive(false);
-                animator.gameObject.SetActive(false);
-                objetoDesaparecido.SetActive(true);
-            }
 
-            //Debug.Log("Apretado");
-        }*/
+        objetoDesaparecido.SetActive(true);
+        Destroy(gameObject);
+
     }
 }
